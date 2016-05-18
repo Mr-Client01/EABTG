@@ -232,32 +232,16 @@ function create_config( )
 	"whitelist",
 	"msg_checks"
     },
-    sudo_users = {110626080,103649648,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {144636299},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v4
-An advanced administration bot based on TG-CLI written in Lua
+    about_text = [[E.A.B-Bot Version1
+A Bot for Manage Your Supergroups Based On TG-CLI Written In Lua...
 
-https://github.com/SEEDTEAM/TeleSeed
+Developer:
+@MrClient
 
-Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@POTUS [Developer]
-@seyedan25 [Manager]
-@aRandomStranger [Admin]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
-@iranseed [persian]
-
-Our website 
-http://teleseed.seedteam.org/
+Channel:
+@EAB_Channel
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -344,7 +328,7 @@ This command will send text to [group_id]
 ]],
     help_text = [[
 Commands list :
-
+__________________
 !kick [username|id]
 You can also do it by reply
 
@@ -459,7 +443,7 @@ Returns group logs
 
 !banlist
 will return group ban list
-
+______________________
 **You can use "#", "!", or "/" to begin all commands
 
 
@@ -473,7 +457,7 @@ will return group ban list
 ]],
 	help_text_super =[[
 SuperGroup Commands:
-
+___________________
 !info
 Displays general info about the SuperGroup
 
@@ -602,7 +586,7 @@ Returns users name and id by username
 !log
 Returns group logs
 *Search for kick reasons using [#RTL|#spam|#lockmember]
-
+___________________
 **You can use "#", "!", or "/" to begin all commands
 
 *Only owner can add members to SuperGroup
